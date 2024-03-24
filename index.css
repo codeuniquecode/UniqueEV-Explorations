@@ -1,0 +1,30 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+}
+.nav-link{
+    padding-right: 3rem;
+}
+.custom-navbar{
+    background-color:#00BFFF;
+    position: sticky;
+    
+}
+ .carousel-item {
+      height: 590px; /* Set height of carousel images */
+    }
+     .carousel-item img {
+      height: 100%; /* Set height of carousel images */
+      height: 100%;
+      object-fit: cover;
+    }
+
+/* Lime Green:
+Electric Blue: #00BFFF
+Dark Slate Gray: #2F4F4F
+Silver: #C0C0C0 */
