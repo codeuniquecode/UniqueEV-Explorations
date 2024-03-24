@@ -12,18 +12,35 @@
 }
 .custom-navbar{
     background-color:#00BFFF;
-    position: sticky;
-    
+    font-weight: bolder;
+}
+.carousel-caption>h5,p{
+    color: whitesmoke ;
+    font-weight: bolder;
 }
  .carousel-item {
-      height: 590px; /* Set height of carousel images */
+      height: 580px; /* Set height of carousel images */
     }
      .carousel-item img {
       height: 100%; /* Set height of carousel images */
-      height: 100%;
+    
       object-fit: cover;
     }
-
+    .logo{
+        height: 50px;
+        width: 50px;
+        background-color:#00BFFF;
+    }
+.container{
+    margin: 10px;
+}
+.custom-text{
+    color:#2F4F4F ;
+}
+.contact-container{
+    margin: 5px;
+    padding: 5px;
+}
 /* Lime Green:
 Electric Blue: #00BFFF
 Dark Slate Gray: #2F4F4F

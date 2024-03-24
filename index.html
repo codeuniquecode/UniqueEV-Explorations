@@ -1,92 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>UniqueEV Explorations</title>
-        <link rel="stylesheet" href="index.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">UniqueEV Explorations</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto pe-4 " >
-                            <li class="nav-item pe-4">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                                <!-- dropdown -->
-                                <li class="nav-item dropdown pe-4">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Blogs
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Sedan</a></li>
-                                            <li><a class="dropdown-item" href="#"></a></li>
-                                            <li><a class="dropdown-item" href="#">Luxury</a></li>
-                                            <li><hr class="dropdown-divider"></li>
-                                            <li><a class="dropdown-item" href="#">Upcoming Evs</a></li>
-                                        </ul>
-                                </li>
-                            <li class="nav-item pe-4">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                            <li class="nav-item pe-4">
-                                <a class="nav-link" href="#">About US</a>
-                            </li>
-                        </ul>
-                        
-                    </div>
-                </div>
-        
-      </nav>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item ">
-            <img src="xiaomi.webp" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>Xiaomi</h5>
-              <p>Xiaomi's New Car SU7 Launches at the End of July.</p>
-            </div>
-          </div>
-          <div class="carousel-item active">
-            <img src="byd.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>BYD atto 3</h5>
-              <p>BYD atto 3 becomes the most sold ev of 2024 surpassing Tesla.</p>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <img src="tatatiago.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-              <h5>Tata Tiago Ev </h5>
-              <p>The most cheap Ev in the market.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UniqueEV Explorations</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="website icon" href="logo.jpg" type="png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> UniqueEV Explorations</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto pe-4">
+          <li class="nav-item pe-4">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <!-- dropdown -->
+          <li class="nav-item dropdown pe-4">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Sedan</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#">Luxury</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Upcoming Evs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item pe-4">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item pe-4">
+            <a class="nav-link" href="#about">About US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- carosuel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="xiaomi.webp" class="d-block w-100 img-fluid" alt="..." />
+        <div class="carousel-caption d-md-block">
+          <h5>Xiaomi</h5>
+          <p>Xiaomi's New Car SU7 Launches at the End of July.</p>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="byd.jpg" class="d-block w-100 img-fluid" alt="..." />
+        <div class="carousel-caption d-md-block">
+          <h5>BYD atto 3</h5>
+          <p>BYD atto 3 becomes the most sold ev of 2024 surpassing Tesla.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="tatatiago.jpg" class="d-block w-100 img-fluid" alt="..." />
+        <div class="carousel-caption d-md-block">
+          <h5>Tata Tiago Ev</h5>
+          <p>The most cheap Ev in the market.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- blog card -->
+  <div class="container">
+    <div class="row mb-2 blogrow">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Toyota</strong>
+            <div class="col-auto d-md-block d-lg-block">
+              <img src="lc300.jpg" alt="" height="110%" width="110%" />
+            </div>
+            <h3 class="mb-0">LandCruise 300</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto custom-text">
+              Will toyota make the world's first electric SUV?
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Tesla</strong>
+            <div class="col-auto d-md-block d-lg-block">
+              <img src="cybertruck.avif" alt="" height="70%" width="75%" />
+            </div>
+            <h3 class="mb-0">CyberTruck</h3>
+            <div class="mb-1 text-muted">Nov 13</div>
+            <p class="card-text mb-auto custom-text">
+              Is Tesla's CyberTruck really bulletproof?
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact -->
+  <!-- footer -->
+  <footer>
+    <div class="container contact-container">
+      <div id="contact">
+        <h3>Contact Us</h3>
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Mark" required />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Otto" required />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Email</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                required />
+              <div class="invalid-feedback">Please choose a username.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required />
+            <div class="invalid-feedback">Please provide a valid city.</div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>Nepal</option>
+              <option>India</option>
+              <option>Bhutan</option>
+            </select>
+            <div class="invalid-feedback">Please select a valid state.</div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationCustom05" required />
+            <div class="invalid-feedback">Please provide a valid zip.</div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required />
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Submit form</button>
+          </div>
+        </form>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Do you want to contact admin?
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Your information will be sent to the admin. Do you want to continue?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  No
+                </button>
+                <button type="button" class="btn btn-primary">Yes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-header">Featured</div>
+      <div class="card-body">
+        <h5 class="card-title">Government Policies on EV</h5>
+        <p class="card-text custom-text">
+          Explore the latest government policies on electric vehicles, shaping
+          the future of sustainable transportation and incentivizing the
+          adoption of eco-friendly driving solutions.
+        </p>
+        <a href="#" class="btn btn-primary">Know more..</a>
+      </div>
+      <div class="card-footer text-body-secondary">
+        Copyright © 2024 UniqueEV Explorations. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
